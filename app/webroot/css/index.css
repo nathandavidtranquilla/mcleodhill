@@ -1,0 +1,12 @@
+.first-word{
+    font-family: 'Roboto',serif;
+    font-weight: 400;
+    font-size: 175%;
+    margin-right: 10px;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+}
+
