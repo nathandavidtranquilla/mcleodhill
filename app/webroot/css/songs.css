@@ -1,0 +1,50 @@
+h2,a{
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 250%;
+}
+
+table {
+    width: 728px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table tr {
+    margin:0;
+    padding:0;
+}
+
+table tr td{
+    display:block;
+    border:none;
+}
+
+table tr td a  {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #999999;
+    font-family: 'Roboto',sans-serif;
+    font-weight:400;
+    font-size: 100%;
+}
+
+table tr td a:hover {
+    color:red;
+}
+
+.first-word{
+    font-family: 'Roboto',serif;
+    font-weight: 400;
+    font-size: 175%;
+    margin-right: 10px;
+}
+
+.song-holder{
+    text-align:center;
+}
+
+

@@ -21,8 +21,8 @@
     <file path="/PagesController.php" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1368269666986" ignored="false" />
     <file path="/cake.generic.css" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1369080160788" ignored="false" />
     <file path="/index.css" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1368271358745" ignored="false" />
-    <file path="/default.ctp" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1369590390106" ignored="false" />
-    <file path="/index.ctp" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1368143776410" ignored="false" />
+    <file path="/default.ctp" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1369591578506" ignored="false" />
+    <file path="/index.ctp" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1369592711582" ignored="false" />
     <file path="/faith.ctp" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1368319098896" ignored="false" />
     <file path="/tooltip.css" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1369589421484" ignored="false" />
     <file path="/mcleodhill_config.php" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1368275555582" ignored="false" />
@@ -31,6 +31,10 @@
     <file path="/mobile.css" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1369589591957" ignored="false" />
     <file path="/mobile_menu.js" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1369590239775" ignored="false" />
     <file path="/mobile_menu.css" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1369590064466" ignored="false" />
+    <file path="/SongsController.php" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1369592737886" ignored="false" />
+    <file path="/songs.css" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1369594050331" ignored="false" />
+    <file path="/shoutToTheLord.ctp" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1369593997785" ignored="false" />
+    <file path="/shout_to_the_lord.ctp" changelist="6afd5d6a-0844-4f48-b362-1eccc736015c" time="1369593653994" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +54,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.ctp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="76" selection-start="2869" selection-end="2869" vertical-scroll-proportion="0.6456954">
+            <state line="74" column="18" selection-start="2029" selection-end="3040" vertical-scroll-proportion="-10.708333">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobile.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/webroot/css/mobile.css">
+      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Songs/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="16" selection-start="1592" selection-end="1592" vertical-scroll-proportion="-11.269231">
+            <state line="7" column="8" selection-start="225" selection-end="225" vertical-scroll-proportion="-4.375">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shout_to_the_lord.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Songs/shout_to_the_lord.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="37" selection-start="1188" selection-end="1188" vertical-scroll-proportion="-2.9113925">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/webroot/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="0" selection-end="192" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="songs.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/webroot/css/songs.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="22" selection-start="622" selection-end="622" vertical-scroll-proportion="0.6902655">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SongsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controller/SongsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="34" selection-start="186" selection-end="200" vertical-scroll-proportion="-7.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blank.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Layouts/blank.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="20" selection-start="2040" selection-end="2040" vertical-scroll-proportion="-1.9583334">
+              <folding>
+                <element signature="e#6#662#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,16 +131,7 @@
       <file leaf-file-name="mobile_menu.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/webroot/css/mobile_menu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact_us.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/webroot/js/contact_us.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="27" selection-start="1828" selection-end="1839" vertical-scroll-proportion="-11.692307">
+            <state line="7" column="17" selection-start="0" selection-end="552" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,42 +141,6 @@
         <entry file="file://$PROJECT_DIR$/app/webroot/css/cake.generic.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="178" column="0" selection-start="3269" selection-end="3296" vertical-scroll-proportion="-6.0384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tooltip.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/webroot/css/tooltip.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="22" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact_us.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/webroot/css/contact_us.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="4" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faith.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Pages/faith.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="33" selection-end="66" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faith.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/webroot/css/faith.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="1" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -150,12 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/webroot/css/index.css" />
-        <option value="$PROJECT_DIR$/app/Config/mcleodhill_config.php" />
-        <option value="$PROJECT_DIR$/app/webroot/css/spinning_icon.css" />
-        <option value="$PROJECT_DIR$/app/webroot/css/contact_us.css" />
-        <option value="$PROJECT_DIR$/app/View/Pages/index.ctp" />
-        <option value="$PROJECT_DIR$/app/webroot/css/faith.css" />
         <option value="$PROJECT_DIR$/app/webroot/css/cake.generic.css" />
         <option value="$PROJECT_DIR$/app/webroot/js/contact_us_js" />
         <option value="$PROJECT_DIR$/app/webroot/js/contact_us.js" />
@@ -166,8 +166,17 @@
         <option value="$PROJECT_DIR$/app/webroot/css/mobile_menu.css" />
         <option value="$PROJECT_DIR$/app/webroot/js/mobile_menu.js" />
         <option value="$PROJECT_DIR$/app/View/Layouts/default.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Layouts/blank.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Songs/index.ctp" />
+        <option value="$PROJECT_DIR$/app/Controller/SongsController.php" />
+        <option value="$PROJECT_DIR$/app/View/Songs/shoutToTheLord.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Songs/shout_to_the_lord.ctp" />
+        <option value="$PROJECT_DIR$/app/webroot/css/songs.css" />
       </list>
     </option>
+  </component>
+  <component name="PhpTemplates">
+    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="ctp" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -293,7 +302,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcleodhill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcleodhill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcleodhill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcleodhill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Songs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,6 +438,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcleodhill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mcleodhill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -466,7 +537,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.7090909" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28923076" sideWeight="0.7090909" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -538,48 +609,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Config/mcleodhill_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="183" selection-start="737" selection-end="737" vertical-scroll-proportion="0.5331126" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/css/spinning_icon.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="1" selection-start="3360" selection-end="3360" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Pages/home.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="25.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Pages/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Pages/contact.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="164" selection-end="164" vertical-scroll-proportion="1.875">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#small#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/webroot/js/contact_us.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="27" selection-start="1828" selection-end="1839" vertical-scroll-proportion="-11.692307">
@@ -629,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/css/mobile_menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/webroot/js/mobile_menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="54" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
@@ -643,9 +665,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Layouts/blank.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="20" selection-start="2040" selection-end="2040" vertical-scroll-proportion="-1.9583334">
+          <folding>
+            <element signature="e#6#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="76" selection-start="2869" selection-end="2869" vertical-scroll-proportion="0.6456954">
+        <state line="74" column="18" selection-start="2029" selection-end="3040" vertical-scroll-proportion="-10.708333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/css/mobile_menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="0" selection-end="552" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/SongsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="186" selection-end="200" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="0" selection-end="192" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Songs/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="225" selection-end="225" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Songs/shout_to_the_lord.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="37" selection-start="1188" selection-end="1188" vertical-scroll-proportion="-2.9113925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/css/songs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="22" selection-start="622" selection-end="622" vertical-scroll-proportion="0.6902655">
           <folding />
         </state>
       </provider>

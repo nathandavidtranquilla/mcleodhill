@@ -67,6 +67,7 @@ $description = __d('mcleodhill.com', 'McLeodHill.com');
                             <td><a href="/pages/index">HOME</a></td>
                             <td><a href="/pages/faith">FAITH</a></td>
                             <td><a href="/pages/media">MEDIA</a></td>
+                            <td><a href="/songs/index">SONGS</a></td>
                             <td><a href="/pages/contact">CONTACT US</a></td>
                         </tr>
                     </table>
