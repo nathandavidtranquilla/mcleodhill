@@ -1,15 +1,25 @@
-a span{
-    display:none;
-    color:#fff;
-    background:rgba(51,51,51,0.75);
-    padding:20px;
-    border-radius:4px;
-    -moz-border-radius:4px;
-    -webkit-border-radius:4px;
-    width:300px;
-    text-align:center;
-    position: absolute;
-    z-index:10;
+@media screen and (min-width: 481px){
+    a span{
+        display:none;
+        color:#fff;
+        background:rgba(51,51,51,0.75);
+        padding:20px;
+        border-radius:4px;
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        width:300px;
+        text-align:center;
+        position: absolute;
+        z-index:10;
+    }
+    a { display: inline-block;}
+    a:hover span{ display:block; }
 }
-a { display: inline-block;}
-a:hover span{ display:block; }
+@media screen and (max-width: 480px){
+    a span{
+        display:none;
+    }
+    a{
+        color: #333333;
+    }
+}
