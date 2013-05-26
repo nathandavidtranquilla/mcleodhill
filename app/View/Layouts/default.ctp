@@ -40,27 +40,38 @@ $description = __d('mcleodhill.com', 'McLeodHill.com');
 	?>
     <link rel="stylesheet" media="screen and (min-width: 481px)" type="text/css" href="/css/cake.generic.css" />
     <link rel="stylesheet" media="screen and (max-width: 480px)" type="text/css" href="/css/mobile.css" />
+    <link rel="stylesheet" media="screen and (max-width: 480px)" type="text/css" href="/css/mobile_menu.css" />
     <link href='http://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300,400italic' rel='stylesheet' type='text/css'>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+    <script type="text/javascript" src="/js/mobile_menu.js"></script>
 </head>
 <body>
 	<div id="container">
 		<div id="header" >
-            <div id="mobile_nav">v</div>
 			<div id="navigation">
-			<table>
-				<tr>
-					<td><a href="/pages/index">HOME</a></td>
-					<td><a href="/pages/faith">FAITH</a></td>
-					<td><a href="/pages/programs">PROGRAMS</a></td>
-					<td><a href="/pages/media">MEDIA</a></td>
-					<td><a href="/pages/contact">CONTACT US</a></td>
-				</tr>
-			</table>
-		</div>
+                <table>
+                    <tr>
+                        <td><a href="/pages/index">HOME</a></td>
+                        <td><a href="/pages/faith">FAITH</a></td>
+                        <td><a href="/pages/media">MEDIA</a></td>
+                        <td><a href="/pages/contact">CONTACT US</a></td>
+                    </tr>
+                </table>
+                <div id="mobile_nav" >Menu</div>
+                <div id="mobile_menu">
+                    <table id="mobile_links">
+                        <tr>
+                            <td><a href="/pages/index">HOME</a></td>
+                            <td><a href="/pages/faith">FAITH</a></td>
+                            <td><a href="/pages/media">MEDIA</a></td>
+                            <td><a href="/pages/contact">CONTACT US</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
 			
 			<a id="banner-link" href="/pages/index">
             <div id="banner">
@@ -93,11 +104,7 @@ $description = __d('mcleodhill.com', 'McLeodHill.com');
 		<div id="footer">
 			<table>
 				<tr>
-					<td><a href="/websites/index">HOME</a></td>
-					<td><a href="/websites/index">ABOUT US</a></td>
-					<td><a href="contact.asp">PROGRAMS</a></td>
-					<td><a href="about.asp">MEDIA</a></td>
-					<td><a href="">CONTACT US</a></td>
+					<td><a href="/songs/index">Songs</a></td>
 				</tr>
 			</table>
 		</div>
